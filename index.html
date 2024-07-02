@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Deadlock and Synchronization</title>
+  </head>
+
+<body>
+<div class="heading">
+  <b>Deadlock and Synchronization</b>
+</div>
+<div class="flexible">
+  <div class="grid">
+ 
+    <div class="grid__item">
+      <div class="card"><img class="card__img" src="images/peterson.png" alt="Canyons">
+        <div class="card__content">
+          <h1 class="card__header">Peterson Algorithm</h1>
+          <p class="card__text">
+Peterson's solution is a software-based algorithm designed to ensure mutual exclusion, progress, and bounded waiting in concurrent computing systems. It addresses the critical section problem,where multiple processes compete for access to shared resources.Peterson's solution ensures mutual exclusion by allowing only one process to enter the critical section at any given time. This means that while one process is executing within the critical section, all other processes are prevented from entering it. </p>
+          <a href="Peterson's_algorithm.html"><button class="card__btn">CLICK <span>&rarr;</span></button></a>
+        </div>
+      </div>
+    </div>
+    <div class="grid__item">
+      <div class="card"><img class="card__img" src="images/tsl.jpg" alt="Test_set_lock">
+        <div class="card__content">
+          <h1 class="card__header">Test Set Lock</h1>
+          <p class="card__text">The Test-and-Set (TAS) lock algorithm is a synchronization primitive used to implement mutual exclusion. It employs an atomic instruction that sets a lock variable to true while returning its previous value, allowing only one process at a time to access a critical section. Additionally, TAS ensures that other processes polling the lock variable wait until it becomes available, preventing concurrent access. This mechanism efficiently manages access to shared resources, preventing race conditions and ensuring thread safety.</p>
+          <a href="TSL.html"><button class="card__btn">CLICK <span>&rarr;</span></button></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid__item">
+      <div class="card"><img class="card__img" src="images/pandc.jpg" alt="Desert">
+        <div class="card__content">
+          <h1 class="card__header">Producer and Consumer</h1>
+          <p class="card__text">The producer-consumer algorithm is a synchronization technique in operating systems. Producers generate data items and add them to a shared buffer, while consumers retrieve and process these items. To avoid issues like buffer overflow or underflow, synchronization mechanisms like semaphores or mutex locks are employed. This ensures that producers and consumers operate efficiently and without conflicts.</p>
+          <a href="p&c.html"><button class="card__btn">CLICK <span>&rarr;</span></button></a>
+        </div>
+      </div>
+    
+      </div>
+    <div class="grid__item">
+      <div class="card"><img class="card__img" src="images/dining.png" alt="Desert">
+        <div class="card__content">
+          <h1 class="card__header">Dining Philosopher's problem</h1>
+          <p class="card__text">The dining philosophers problem is a classic computer science conundrum that illustrates synchronization issues in concurrent programming. It involves a group of philosophers seated around a dining table, each needing two forks to eat. The challenge is to prevent deadlock and starvation while ensuring efficient resource utilization.</p>
+          <a href="dining_philosophers.html"><button class="card__btn">CLICK<span>&rarr;</span></button></a>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+</body>
+</html>
