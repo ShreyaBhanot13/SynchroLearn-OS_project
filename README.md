@@ -1,5 +1,3 @@
-# Deadlocak-Synchronization-os
+# SynchroLearn: Master Deadlock and Synchronization with the help of a simulator viualizer.  
 
-Build a website for Deadlock and Synchronisation Algorithms of OS. And try to display their solution into Animations and Visualization for better understanding.  
 
-try it @ https://jaypatel1210.github.io/Deadlocak-Synchronization-os/  
